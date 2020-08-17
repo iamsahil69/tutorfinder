@@ -1,0 +1,318 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* header css */
+.logo-nav{
+    background-color:#00a8cc;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    flex: 1;
+}
+.logo i{
+    padding: 8px;
+    font-size: 30px;
+}
+.logo h1{
+    margin-top: 8px;
+    padding: 20px 20px;
+    color:white;
+    font-size: 30px;
+}
+.logo h1 span{
+    font-family: cursive;
+    font-weight: 200;
+}
+.nav{
+    flex: 1;
+
+}
+.nav ul{
+    text-align: right;
+}
+.nav ul li{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 15px;
+    text-align:right;
+    font-size: 15px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color:white;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.active,.nav ul li a:hover{
+    border-bottom: 2px solid whitesmoke;
+
+}
+/* main-content*/
+.main-content {
+    height: 1550px;
+    width: 100%;
+    background-color: #bbbbbb;
+}
+.sign-out{
+    position: sticky;
+    top: 93px;
+    display: flex;
+    background-color: #758184;
+    padding: 10px;
+}
+.name{
+    flex: 1;
+    text-align: left;
+}
+.button{
+    flex: 1;
+    text-align: right;
+}
+body > div.main-content > div.sign-out > div.name > h3{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    position: sticky;
+    top: 95px;
+}
+.main-content input[type="submit"]{
+    padding:5px;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    border-radius: 15px;
+    margin: 5px;
+    background: transparent;
+    color: whitesmoke;
+    border: none;
+}
+.main-content i{
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 5px;
+}
+.main-content .profile{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    background-color: whitesmoke;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px #888;
+}
+body > div.main-content > div.profile > h3{
+    text-align: center;
+    padding: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    margin-bottom: 20px;
+    color: #888;
+}
+body > div.main-content > div.profile > div.pic-info > div > img{
+    padding: 10px;
+    height: 200px;
+
+}
+.pic .stars{
+    text-align: center;
+}
+.pic i{
+    padding: 2px;
+    font-size: 18px;
+    color: rgb(233, 190, 83);
+}
+
+.main-content .profile .pic-info{
+    display: flex;
+}
+.main-content .profile .pic-info .pic{
+    flex: 2;
+    text-align: center;
+}
+.main-content .profile .pic-info .info{
+    flex: 4;
+    padding: 10px;
+    padding-left:30px;
+}
+.profile .other-info{
+    padding: 20px;
+}
+body > div.main-content > div.profile > div.other-info > p.contacts > i{
+    padding: 5px;
+    font-size: 20px;
+    color: #758184;
+}
+.other-info ul li{
+    list-style: none;
+    padding: 4px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.facilities li{
+    padding: 8px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body > div.main-content > div.profile > div.pic-info > div.info > span.head{
+    padding: 10px;
+    margin-right: 15px;
+    font-size: large;
+    font-weight: bold;
+    color: #394042;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+ }
+body > div.main-content > div.profile > div.pic-info > div.info{
+    padding: 10px;
+}
+body > div.main-content > div.profile > div.pic-info > div.info > span.data{
+    padding: 10px;
+    margin-left: 10px;
+    font-weight: 900;
+    color: #394042;
+    font-family: 'Times New Roman', Times, serif;
+}
+body > div.main-content > div.profile > div.other-info > h3{
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #2a3031;
+}
+body > div.main-content > div.profile > div.other-info > p.tagline{
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #394042;
+}
+body > div.main-content > div.profile > div.other-info > h4{
+    padding: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #394042;
+}
+body > div.main-content > div.profile > div.other-info > span{
+    margin-left: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+body > div.main-content > div.profile > div.other-info > ul.subjects{
+    margin-left: 15px;
+
+}
+body > div.main-content > div.profile > div.other-info > ul.facilities{
+    margin-left: 15px;
+}
+body > div.main-content > div.profile > div.other-info > i{
+    padding: 10px;
+    font-size: large;
+    color: #758184;
+}
+body > div.main-content > div.profile > div.other-info > span:nth-child(18),
+body > div.main-content > div.profile > div.other-info > span:nth-child(21),
+body > div.main-content > div.profile > div.other-info > span:nth-child(24){
+    margin-left: 0px;
+}
+body > div.main-content > div.profile > div.other-info > a{
+    text-decoration: none;
+    font-size: large;
+    background-color: #00a8cc;
+    color: whitesmoke;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 25px;
+}
+body > div.main-content > div.profile > div.other-info > span.fee{
+    font-size: large;
+    background-color: #00a8cc;
+    color: whitesmoke;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 20px;
+}
+.cards{
+   margin-left: 20%;
+   margin-right: 20%;
+   margin-top: 25px;
+   background-color: whitesmoke;
+   border-radius: 8px;
+   box-shadow: 10px 10px 10px #888;
+   padding: 10px 10px 10px;
+   height: 120px;
+}
+.cards .detail{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 10px;
+    padding: 12px 12px 12px;
+}
+.cards p{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 15px;
+   padding: 8px;
+}
+.cards .date{
+   margin-right: 10%;
+   width: 40%;
+   margin-left: 50%;
+   font-size: 15px;
+
+}
+
+.cards i{
+    margin:5px 5px 5px;
+    padding: 2px;
+    font-size: 15px;
+    color: rgb(233, 190, 83);
+
+}
+.cards .user{
+   font-size: 25px;
+   padding: 5px;
+   color: #888;
+}
+/* footer css */
+.teacher-section{
+    background-color:#758184;
+}
+.teacher-section ul{
+    display: flex;
+    height:8vh;
+}
+.teacher-section ul li{
+    flex: 1;
+    text-align: center;
+    list-style: none;
+    padding: 20px;
+}
+
+.teacher-section ul li i{
+font-size: 30px;
+color: whitesmoke;
+}
+.teacher-section h3{
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+
+}
+.teacher-section h4{
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke;
+    font-family : Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+}

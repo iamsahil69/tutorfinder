@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* header css */
+.logo-nav{
+    background-color:#00a8cc;
+    display: flex;
+    /* position: sticky;
+    top: 0; */
+}
+.logo{
+    flex: 1;
+}
+.logo i{
+    padding: 8px;
+    font-size: 30px;
+}
+.logo h1{
+    margin-top: 8px;
+    padding: 20px 20px;
+    color:white;
+    font-size: 30px;
+}
+.logo h1 span{
+    font-family: cursive;
+    font-weight: 200;
+}
+.nav{
+    flex: 1;
+
+}
+.nav ul{
+    text-align: right;
+}
+.nav ul li{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 15px;
+    text-align:right;
+    font-size: 15px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color:white;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.active,.nav ul li a:hover{
+    border-bottom: 2px solid whitesmoke;
+
+}
+/* main-content */
+.main-content{
+    background-color: #bbbbbb;
+    height: 600px;
+}
+.container{
+    position: relative;
+    top: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px #758184;
+}
+.profile{
+    padding: 8px;
+    height: 175px;
+}
+.pic-info{
+    display: flex;
+}
+.pic{
+    flex: 1;
+}
+.info{
+    flex: 4;
+    padding: 10px 10px 10px;
+}
+.info .head, .data{
+    margin: 10px 10px 10px;
+    font-size: 18px;
+   font-family: 'Times New Roman', Times, serif;
+
+}
+.info p{
+   padding: 10px 10px 10px;
+   font-size: 15px;
+   margin: 10px;
+   font-family: 'Times New Roman', Times, serif;
+
+}
+body > div.main-content > div > div > div > div.pic > img{
+    height: 150px;
+    width: 150px;
+    padding: 8px;
+}
+body > div.main-content > div > h2{
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: #758184;
+}
+body > div.main-content > div > form{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+body > div.main-content > div > form > label{
+    padding: 8px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body > div.main-content > div > form > input[type=text],
+body > div.main-content > div > form > input[type=email]{
+    padding: 3px;
+    width: 100%;
+    outline: none;
+    margin: 8px;
+}
+#stars{
+    padding: 3px;
+    width: 40%;
+}
+form i{
+    padding: 2px;
+    margin: 1px;
+    color: #758184;
+}
+textarea{
+    width: 100%;
+    margin: 8px;
+    padding: 2px;
+    border-radius: 4px;
+}
+body > div.main-content > div > form > input[type=submit]{
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #00a8cc;
+    color: whitesmoke;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-left: 18%;
+    width: 20%;
+}
+body > div.main-content > div > form > input[type=reset]{
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #777777;
+    color: whitesmoke;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-left: 18%;
+    width: 20%;
+}
+body > div.main-content > div > form > input[type=submit]:hover,
+body > div.main-content > div > form > input[type=reset]:hover{
+    box-shadow: 8px 8px 8px #758184;
+}
+.error{
+    color: red;
+    padding: 2px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* footer css */
+.teacher-section{
+    background-color:#758184;
+}
+.teacher-section ul{
+    display: flex;
+    height:8vh;
+}
+.teacher-section ul li{
+    flex: 1;
+    text-align: center;
+    list-style: none;
+    padding: 20px;
+}
+
+.teacher-section ul li i{
+font-size: 30px;
+color: whitesmoke;
+}
+.teacher-section h3{
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+
+}
+.teacher-section h4{
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke;
+    font-family : Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+}

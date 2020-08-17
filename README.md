@@ -1,2 +1,2 @@
 # tutorfinder
-This is a simple Project....
+This is a simple project

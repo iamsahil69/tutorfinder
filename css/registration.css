@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* header css */
+.logo-nav{
+    background-color:#00a8cc;
+    display: flex;
+    /* position: sticky; 
+    top: 0; */
+}
+.logo{
+    flex: 1;
+}
+.logo i{
+    padding: 8px;
+    font-size: 30px;
+}
+.logo h1{  
+    margin-top: 8px;
+    padding: 20px 20px;
+    color:white;
+    font-size: 30px;
+}
+.logo h1 span{
+    font-family: cursive;
+    font-weight: 200;
+}
+.nav{
+    flex: 1;
+    
+}
+ul{
+    text-align: right;
+}
+.nav ul li{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 15px;
+    text-align:right;
+    font-size: 15px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color:white;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.active,.nav ul li a:hover{
+    border-bottom: 2px solid whitesmoke;
+    
+}
+/* main-content */
+
+.main-content {
+    height: 1500px;
+    width: 100%;
+    background-color: #bbbbbb;
+}
+.sign-out{
+    /* position: sticky;
+    top: 94px; */
+    display: flex;
+    background-color: #758184;
+    padding: 10px;
+    height: 50px;
+}
+.name{
+    flex: 1;
+    text-align: left;
+}
+.button{
+    flex: 1;
+    text-align: right;
+}
+.main-content h4{
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    position: sticky;
+    top: 95px;
+}
+.button input[type="submit"]{
+    padding:5px;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    border-radius: 15px;
+    margin: 5px;
+    background: transparent;
+    color: whitesmoke;
+    border: none;
+}
+.main-content i{
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 5px;
+}
+.form-container{
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 50px;
+    background-color:whitesmoke;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 10px 10px 8px #888888;
+}
+.form-container h2{
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    color: darkgray;
+    font-family: serif;
+}
+.form-container form{
+    margin-left: 8%;
+    margin-right: 8%;
+    padding: 40px;
+    height: auto;
+}
+form label{
+    padding:10px;
+    letter-spacing: 0.01em;
+    color: #434e52;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: serif;
+}
+input[type="text"], input[type="email"]{
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+    width:100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    outline: none;
+}
+input[type="number"]{
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+    width:100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    outline: none;
+
+}
+input[type="radio"]{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    display: inline-block;
+}
+textarea{
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+    width:100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    outline: none;
+
+}
+select{
+    padding: 8px;
+    width: 56%;
+    outline: none;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+input[type="file"]{
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #434e52;
+}
+.form-container input[type="submit"],.form-container input[type="reset"]{
+    border: none;
+    outline: none;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 15px;
+    width: 40%;
+    font-size: 14px;
+}
+input[type="submit"]{
+    background: #00a8cc;
+    color: whitesmoke;
+}
+input[type="reset"]{
+    background: #758184;
+    color: whitesmoke;
+}
+.form-container input[type="submit"]:hover,.form-container input[type="reset"]:hover{
+    box-shadow: 10px 10px 8px #888888;
+}
+.error{
+    color:red;
+    text-align: center;
+}
+/* footer css */
+.teacher-section{
+    background-color:#758184;
+}
+.teacher-section ul{
+
+    display: flex;
+    height:8vh;
+}
+.teacher-section ul li{
+    flex: 1;
+    text-align: center;
+    list-style: none;
+    padding: 20px;
+    
+}
+.teacher-section ul li i{
+font-size: 30px;
+color: whitesmoke;
+}
+.teacher-section h3{
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+
+}
+.teacher-section h4{
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+}
