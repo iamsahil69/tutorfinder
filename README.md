@@ -12,3 +12,13 @@ useful for tutors as well. As they can improve their teaching by using these val
 
 # Root directory description
 
+css folder: This folder contains all the style related files. These are  css  files. 
+
+images folder: This folder contains all the images which are used in this project. 
+
+javascript folder: This folder contains all the javascript related files which are used to make this project interactive and responsive. 
+
+uploads folder: This folder conatins the images/profile pictures uploaded by the tutors while creating their profiles. 
+
+index.html: This is the home page of this project and contains links for sign up , signin, links to contact us page and blog. 
+
