@@ -53,6 +53,6 @@ review.php: This is the page on which the details of tutor to whom student want 
 enquire.php: This is page to which a student will be redirected  when he/she try to find tutor in his/her locality. This page will ask student to enter their requirements whether they want a tutor for school or college going student, what type of board they are studying in?, which subjects they want to study?, what is pincode or locality in which they are looking for tutor?. 
 Once they submit all the information, it will be validated and then script will run a database query to find the tutor similar to students requirement and show the resultant tutors on the samepage .Student check the complete profile of tutor by click on "view profile" button. 
 
-result.php:This is the page to which a tutor will be redirected when he/she has successfully signedup for an account. It will ask tutor to complete his/her profile by signing in. 
+result.php: This is the page to which a tutor will be redirected when he/she has successfully signedup for an account. It will ask tutor to complete his/her profile by signing in. 
 
 
