@@ -7,4 +7,4 @@ database and will be retrieved when required. This profile information will be s
 Students can do two things by using this project. Firstly they can find tutor related to their interest of study in their locality & can decide which tutor to study from this can be decided based on various factors like locality, qualification and reviews etc about the tutor.
 
 Secondly, they can review a teacher based upon their experience with the concerned tutor.In this review they can give star ratings to the tutor and can give a comment as a feedback which will be very helpful for more students while considering that tutor.This review will also be
-useful for tutors as well. As they can improve their teaching by using these valuable feedback from students.    
+useful for tutors as well. As they can improve their teaching by using these valuable feedback from students.   
