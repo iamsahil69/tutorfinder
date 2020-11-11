@@ -179,9 +179,9 @@
                     $tmpAdd = $Profile["tmp_name"];
                     $fileType = $Profile["type"];
                     $newFileName = reset($fileNameArr).$id.".".$fileExt;
-                    $fileDestination = ".\uploads\\".$newFileName;
+                    $fileDestination = "uploads/".$newFileName;
                     $vprofile = true;
-                    // echo "<br>".$fileDestination;
+                    
                  }
                 }
                 if($vname && $vage && $vgender && $vaddress && $vcity && $vstate && $vpincode && $vemail && $vphn && $vprofile && $vhq && $vspl){
