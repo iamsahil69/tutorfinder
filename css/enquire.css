@@ -1,63 +1,76 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
+
 /* header css */
-.logo-nav{
-    background-color:#00a8cc;
+.logo-nav {
+    background-color: #00a8cc;
     display: flex;
     top: 0;
 }
-.logo{
+
+.logo {
     flex: 1;
 }
-.logo i{
+
+.logo i {
     padding: 8px;
     font-size: 30px;
 }
-.logo h1{
+
+.logo h1 {
     margin-top: 8px;
     padding: 20px 20px;
-    color:white;
+    color: white;
     font-size: 30px;
 }
-.logo h1 span{
+
+.logo h1 span {
     font-family: cursive;
     font-weight: 200;
 }
-.nav{
+
+.nav {
     flex: 1;
 
 }
-.nav ul{
+
+.nav ul {
     text-align: right;
 }
-.nav ul li{
+
+.nav ul li {
     display: inline-block;
     margin-top: 10px;
     padding: 15px;
-    text-align:right;
+    text-align: right;
     font-size: 15px;
 }
-.nav ul li a{
+
+.nav ul li a {
     text-decoration: none;
-    color:white;
+    color: white;
     padding-bottom: 10px;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
 }
-.active,.nav ul li a:hover{
+
+.active,
+.nav ul li a:hover {
     border-bottom: 2px solid whitesmoke;
 
 }
+
 /* main-content */
-.main-container{
+.main-container {
     height: 900px;
     background-color: #bbbbbb;
     margin-top: 0px;
 }
-.content{
+
+.content {
     position: relative;
     top: 30px;
     margin-left: 20%;
@@ -69,22 +82,44 @@
     border-radius: 8px;
     box-shadow: 10px 10px 10px #888888;
 }
-.content .form{
+
+.content .form {
     height: auto;
 }
-.school-box, .college-box, .primary, .secondary, .higher-secondary, .bca, .bcom, .bba,
-.mscit, .bsc{
+
+.school-box,
+.college-box,
+.primary,
+.secondary,
+.higher-secondary,
+.bca,
+.bcom,
+.bba,
+.mscit,
+.bsc {
     display: none;
 }
-.error{
+
+.error {
     color: red;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
     text-align: center;
 }
-.card{
-    display: flex;
+
+.card {
+    /* display: flex;
     height: 190px;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 55px;
+    margin-bottom: 25px;
+    border-radius: 28px;
+    box-shadow: 10px 10px 10px #888888;
+    background-color: whitesmoke; */
+    display: flex;
+    /* height: 190px; */
     padding: 10px;
     margin-left: 20%;
     margin-right: 20%;
@@ -93,20 +128,28 @@
     border-radius: 8px;
     box-shadow: 10px 10px 10px #888888;
     background-color: whitesmoke;
+    position: relative;
+    top: 25px;
 }
-.picture{
+
+.picture {
     flex: 2;
 }
-img{
+
+img {
     height: 180px;
     width: 100%;
-    border-radius:5px;
+    border-radius: 5px;
+    padding: 12px 12px;
+    border-radius: 20px;
 }
-.info{
-    padding: 10px;
+
+.info {
+    padding: 18px;
     flex: 4;
 }
-.detail{
+
+.detail {
     margin: 10px;
     margin-bottom: 5px;
     padding: 10px;
@@ -114,65 +157,73 @@ img{
     font-family: Arial, Helvetica, sans-serif;
     color: #888888;
 }
-.link{
-    margin-left:4%;
-    margin-top:10px;
+
+.link {
+    margin-left: 82%;
+    margin-top: 10px;
     text-decoration: none;
     padding: 8px;
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #00a8cc;
-    border-radius: 20px;
+    border-radius: 8px;
     width: 100px;
+    font-size: 18px;
 }
-input["type"="Submit"]{
-   outline: none;
-   background-color:#00a8cc;
-   border: none;
-   padding: 10px;
-   width: 30%;
-   color: whitesmoke;
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 16px;
-   border-radius: 8px;
-   margin-left: 90px;
-   margin-top: 20px;
-   margin-bottom: 20px;
+
+input[type="Submit"] {
+    outline: none;
+    background-color: #00a8cc;
+    border: none;
+    padding: 10px;
+    width: 30%;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-left: 142px;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
 }
-input["type"="reset"]{
- outline: none;
- background-color:#758184;
- border: none;
- padding: 10px;
- width: 30%;
- color: whitesmoke;
- font-family: Arial, Helvetica, sans-serif;
- font-size: 16px;
- border-radius: 8px;
- margin-left: 90px;
- margin-top: 20px;
- margin-bottom: 20px;
+
+input[type="reset"] {
+    outline: none;
+    background-color: #758184;
+    border: none;
+    padding: 10px;
+    width: 30%;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-left: 90px;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
 }
+
 /* footer css */
-.teacher-section{
-    background-color:#758184;
+.teacher-section {
+    background-color: #758184;
 }
-.teacher-section ul{
+
+.teacher-section ul {
     display: flex;
-    height:8vh;
+    height: 8vh;
 }
-.teacher-section ul li{
+
+.teacher-section ul li {
     flex: 1;
     text-align: center;
     list-style: none;
     padding: 20px;
 }
 
-.teacher-section ul li i{
-font-size: 30px;
-color: whitesmoke;
+.teacher-section ul li i {
+    font-size: 30px;
+    color: whitesmoke;
 }
-.teacher-section h3{
+
+.teacher-section h3 {
     padding: 10px;
     text-align: center;
     color: whitesmoke;
@@ -181,11 +232,67 @@ color: whitesmoke;
     font-weight: 100;
 
 }
-.teacher-section h4{
+
+.teacher-section h4 {
     padding: 10px;
     text-align: center;
     color: whitesmoke;
-    font-family : Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: 100;
+}
+
+.main-container>div>h2 {
+    text-align: center;
+    padding: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: #758184;
+}
+
+label {
+    font-size: 22px;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+}
+
+form {
+    padding: 20px 25px;
+    text-align: left;
+}
+
+form>input[type="radio"] {
+    padding: 20px;
+    margin: 7px 7px;
+}
+
+select[name="board"],
+select[name="board"],
+select[name="class"],
+select[name="uni"],
+select[name="course"],
+select[name="primary"],
+select[name="secondary"],
+select[name="higher-secondary"],
+select[name="primary"],
+select[name="primary"] {
+    width: 30%;
+    padding: 2px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+}
+input[type="text"]
+{
+    width: 30%;
+    padding: 2px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
 }
