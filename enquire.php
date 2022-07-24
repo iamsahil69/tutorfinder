@@ -241,7 +241,7 @@
         </div>
         
 </div>
-<div class="main-container"<?php if($flag){$temp = (count($names)*240)+300;echo "style=\"height: {$temp}px;\"";}?>>
+<div class="main-container"<?php if($flag){$temp = (count($names)*300)+500;echo "style=\"height: {$temp}px;\"";}?>>
     <div class="content">
         <h2>Your Requirements</h2>
         <form action="enquire.php" method="post">
@@ -463,7 +463,7 @@
                      echo "</div>";   
                      echo "<div class=\"info\">";    
                      echo "<span class=\"detail\"> Name   ".$names[$i]."</span><br><br>";  
-                     echo "<span class=\"detail\"> Experience   ".$exp[$i]."</span><br><br>";  
+                     echo "<span class=\"detail\"> Experience   ".$exp[$i]." years</span><br><br>";  
                      echo "<span class=\"detail\"> Qualification   ".$quali[$i]."</span><br><br>";  
                      echo "<span class=\"detail\"> Address   ".$address[$i]."</span><br><br>";  
                      echo "<a class=\"link\" href=\"profile2.php?Id={$filter3[$i]}\" > view profile </a>";    
@@ -487,6 +487,6 @@
     </ul>
     <h4>Copyrights Reserved 2020.</h4>
 </div>
-<script type="text/javascript" src="Javascript/index.js">
+<script src="javascript/enquire.js"></script>
 </body>
 </html>
