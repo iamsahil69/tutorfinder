@@ -88,21 +88,23 @@
                 $stars = round($sum/$i);  
               }
               
-              $sql = "Select Stu_name, review_stars, Comment, Time from teacher_review where id='$Id'";
-              $result = mysqli_query($conn,$sql);     
+              $sql = "Select Stu_name, review_stars, Comment, Time from teacher_review where id='$Id' order by Time DESC";
+              $result = mysqli_query($conn,$sql);  
+            //   print_r($result);   
                if(mysqli_num_rows($result) > 0){
                    while($row = mysqli_fetch_array($result)){
+                        // print_r($row);
                         array_push($names,$row["Stu_name"]);   
                         array_push($star, $row["review_stars"]);   
                         array_push($comment, $row["Comment"]);      
                         array_push($time, $row["Time"]);   
                    }
-                         
-                         foreach($time as $val){
-                              $temp = explode($val, " ");     
-                              $date = $temp[0];
-                              array_push($dates, $date);   
-                         }
+                        //  foreach($time as $val){
+                        //       $temp = explode($val, " ");     
+                        //       $date = $temp[0];
+                        //       array_push($dates, $date);   
+                        //  }
+                        //  print_r($dates);
                     $flag = true;
                }else{
                     $outcome = "No reviews yet !!!";
@@ -196,7 +198,7 @@
         <i class="fa fa-mobile" aria-hidden="true"></i><span> <?php echo $phn; ?></span><br>
         <i class="fa fa-envelope" aria-hidden="true"></i><span><?php echo $email; ?></span>
             </p>
-        <a href="#">Reserve Class</a>
+        <a href="mailto:sahilkumar6998@gmail.com">Reserve Class</a>
         <span class="fee">Fees <?php echo $fees; ?><i class="fa fa-inr" aria-hidden="true"></i></span>
         <?php if(!$flag){ echo $outcome; }?>
     </div>
@@ -208,11 +210,13 @@
                       echo "<div class = \"cards\">";
                       echo "<span class=\"user\"><i class=\"fa fa-user-circle-o\" aria-hidden=\"true\"></i></span>";          
                       echo "<span class=\"detail\">".$names[$i]."</span>";          
-                      echo "<span class=\"date\">".$dates[$i]."</span><br>"; 
-                      $a=$star[$i];        
+                      echo "<span class=\"date\"><i class=\"fa fa-calendar\" aria-hidden=\"true\"></i>".$time[$i]."</span><br>"; 
+                      $a=$star[$i]; 
+                      echo "<div class = \"star-container\">";
                       for($j = 1; $j <= $a; $j++){
                              echo "<i class=\"fa fa-star\" aria-hidden=\"true\"></i>";                                   
                       }
+                      echo "</div>";  
                       echo "<br>";
                       echo "<p class=\"comment\">".$comment[$i]."</p>";          
                       echo "</div>";     
