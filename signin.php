@@ -8,7 +8,7 @@
     //variables declaration    
         $error = "";
         $errors = array("username" => "", "password" => ""); 
-        $id = "";
+        $id = 0;
         $user="";
         $username = "";
         $pwd="";
@@ -54,11 +54,11 @@
                 }else{
                    
                     while($row = mysqli_fetch_array($result)){
-                        $id = $row['id'];  
+                        $id = $row['Id'];  
                         $username = $row['user_name'];   
                     }
                     echo $id;
-                    $sql = "SELECT * FROM profile_picture WHERE id=\"$id\";";
+                    $sql = "SELECT * FROM profile_picture WHERE id='$id';";
                     $result2 = mysqli_query($conn,$sql);
                     if(mysqli_num_rows($result2)>0){
                         $_SESSION['id'] = $id;
