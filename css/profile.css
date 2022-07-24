@@ -104,7 +104,7 @@ body > div.main-content > div.sign-out > div.name > h3{
     margin-right: 20%;
     padding: 20px;
     background-color: whitesmoke;
-    margin-top: 25px;
+/*     margin-top: 25px; */
     margin-bottom: 50px;
     border-radius: 8px;
     box-shadow: 10px 10px 10px #888;
@@ -227,16 +227,21 @@ body > div.main-content > div.profile > div.other-info > a{
     background-color: #00a8cc;
     color: whitesmoke;
     border-radius: 8px;
-    padding: 8px;
-    margin: 25px;
+    padding: 12px;
+    margin: 6px;
+    position: absolute;
+    right: 360px;
 }
 body > div.main-content > div.profile > div.other-info > span.fee{
     font-size: large;
     background-color: #00a8cc;
     color: whitesmoke;
     border-radius: 8px;
-    padding: 8px;
-    margin: 20px;
+    padding: 13px;
+    margin: 19px;
+    position: relative;
+    left: 574px;
+    top: 13px;
 }
 .cards{
    margin-left: 20%;
@@ -245,33 +250,37 @@ body > div.main-content > div.profile > div.other-info > span.fee{
    background-color: whitesmoke;
    border-radius: 8px;
    box-shadow: 10px 10px 10px #888;
-   padding: 10px 10px 10px;
-   height: 120px;
+   padding: 20px 20px;
+   /* height: 120px; */
 }
 .cards .detail{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 500;
     margin-left: 10px;
     padding: 12px 12px 12px;
 }
 .cards p{
    font-family: 'Times New Roman', Times, serif;
-   font-size: 15px;
-   padding: 8px;
+   font-size: 22px;
+    padding: 8px;
+    margin-top: -54px;
+    text-align: justify;
 }
 .cards .date{
    margin-right: 10%;
    width: 40%;
    margin-left: 50%;
-   font-size: 15px;
+   font-size: 20px;
+   position: absolute;
+   right: -242px;
 
 }
 
 .cards i{
     margin:5px 5px 5px;
     padding: 2px;
-    font-size: 15px;
+    font-size: 24px;
     color: rgb(233, 190, 83);
 
 }
@@ -315,4 +324,11 @@ color: whitesmoke;
     font-family : Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: 100;
+}
+	.star-container{
+    padding: 10px 10px;
+    display: inline-block;
+    position: relative;
+    top: -47px;
+    left: 204px;
 }
